@@ -1,7 +1,7 @@
 ---
 title: Home
 hero:
-  image: /short-logo.png
+  image: /Yanhuo-plugin/short-logo.png
   desc: vue hooks 组件库 - from  <B style="color:pink">烟火</B> 🐳
   actionText: 开始
   actions:
