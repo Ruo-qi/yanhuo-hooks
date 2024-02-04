@@ -1,4 +1,4 @@
-// import { menus } from './hooks';
+import { menus } from './hooks';
 
 // const packages = require('../packages/hooks/package.json');
 
@@ -27,7 +27,7 @@ export default {
   manifest: {},
   hash: true,
   alias: {
-    encodeHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    yanHuoHooks: process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],
@@ -56,6 +56,6 @@ export default {
         path: '/guide',
       },
     ],
-    // '/hooks': menus,
+    '/hooks': menus,
   },
 };

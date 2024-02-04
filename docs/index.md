@@ -7,8 +7,8 @@ hero:
   actions:
     - text: 指南
       link: /guide
-    - text: 功能组件 列表
-      link: /hooks
+    # - text: 功能组件 列表
+    #   link: /hooks
     - text: Hooks 列表
       link: /hooks
 footer: ✨接下来,就去尽情发光吧~

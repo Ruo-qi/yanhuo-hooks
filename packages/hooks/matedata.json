@@ -1,0 +1,8 @@
+{
+  "functions": [
+    {
+      "name": "useToggle",
+      "description": "用于在两个状态值间切换的 Hook。"
+    }
+  ]
+}
