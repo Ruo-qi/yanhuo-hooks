@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Test CI
 on:
   push:
     branches:
@@ -18,7 +18,6 @@ jobs:
       - name: Install and Build
         run: |
           npm i -g pnpm
-          pnpm install --no-frozen-lockfile
           pnpm run init
         env:
           NODE_OPTIONS: '--max_old_space_size=4096'

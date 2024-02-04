@@ -1,13 +1,12 @@
 import { menus } from './hooks';
 
-// const packages = require('../packages/hooks/package.json');
-
 export default {
   exportStatic: {},
   nodeModulesTransform: {
     type: 'none',
     exclude: [],
   },
+  publicPath: '/Yanhuo-plugin/',
   history: { type: 'hash' },
   extraBabelPlugins: [
     [
@@ -42,6 +41,7 @@ export default {
   navs: [
     { title: '指南', path: '/guide' },
     { title: 'Hooks', path: '/hooks' },
+    { title: 'GitHub', path: 'https://github.com/Ruo-qi/Yanhuo-plugin' },
   ],
   menus: {
     '/': [
