@@ -46,5 +46,5 @@
 ## 📧 联系
 
 - **GitHub**: <https://github.com/Ruo-qi/Yanhuo-plugin>
-- **encode Hooks** <https://encode-studio-fe.github.io/encode-hooks/>
+- **Hooks** <https://ruo-qi.github.io/Yanhuo-plugin/>
 </br>
