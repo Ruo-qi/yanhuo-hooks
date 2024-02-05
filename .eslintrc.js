@@ -1,2 +1,2 @@
-module.exports = { extends: [ 'encode-fe-eslint-config/typescript/vue','prettier',],
+module.exports = { extends: [ 'encode-fe-eslint-config/typescript/react','prettier',],
 };

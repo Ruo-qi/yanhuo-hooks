@@ -1,6 +1,6 @@
 {
   "name": "yanhuo-hooks",
-  "description": "vue组件库,包含一些常用组件和hooks",
+  "description": "hooks组件库",
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -20,7 +20,7 @@
     "encode-fe-lint-fix": "encode-fe-lint fix"
   },
   "keywords": [
-    "vue",
+    "react",
     "组件库",
     "hook"
   ],
@@ -38,6 +38,7 @@
     "@testing-library/react": "^13.4.0",
     "@types/jest": "^29.4.0",
     "@types/mockjs": "^1.0.7",
+    "@types/node": "^20.5.6",
     "@types/react-router": "^5.1.19",
     "@umijs/fabric": "^2.1.0",
     "antd": "^5.2.1",
