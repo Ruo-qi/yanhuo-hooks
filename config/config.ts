@@ -6,7 +6,7 @@ export default {
     type: 'none',
     exclude: [],
   },
-  publicPath: '/Yanhuo-plugin/',
+  publicPath: '/yanhuo-hooks/',
   history: { type: 'hash' },
   extraBabelPlugins: [
     [
@@ -20,8 +20,8 @@ export default {
   ],
   mode: 'site',
   title: 'YANHUO 组件库',
-  favicon: '/Yanhuo-plugin/avatar.png',
-  logo: '/Yanhuo-plugin/logo.png',
+  favicon: '/yanhuo-hooks/avatar.png',
+  logo: '/yanhuo-hooks/logo.png',
   dynamicImport: {},
   manifest: {},
   hash: true,
@@ -41,7 +41,7 @@ export default {
   navs: [
     { title: '指南', path: '/guide' },
     { title: 'Hooks', path: '/hooks' },
-    { title: 'GitHub', path: 'https://github.com/Ruo-qi/Yanhuo-plugin' },
+    { title: 'GitHub', path: 'https://github.com/Ruo-qi/yanhuo-hooks' },
   ],
   menus: {
     '/': [

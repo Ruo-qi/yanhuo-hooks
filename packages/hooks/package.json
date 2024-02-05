@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [
-    "Yanhuo",
+    "yanhuo",
     "react",
     "hooks"
   ],
@@ -16,8 +16,8 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "repository": "https://github.com/Ruo-qi/Yanhuo-plugin",
-  "homepage": "https://github.com/Ruo-qi/Yanhuo-plugin",
+  "repository": "https://github.com/Ruo-qi/yanhuo-hooks",
+  "homepage": "https://github.com/Ruo-qi/yanhuo-hooks",
   "scripts": {
     "build": "gulp && webpack-cli"
   },

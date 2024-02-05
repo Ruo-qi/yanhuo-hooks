@@ -1,7 +1,7 @@
 ---
 title: Home
 hero:
-  image: /Yanhuo-plugin/short-logo.png
+  image: /yanhuo-hooks/short-logo.png
   desc: vue hooks 组件库 - from  <B style="color:pink">烟火</B> 🐳
   actionText: 开始
   actions:
@@ -30,5 +30,5 @@ footer: ✨接下来,就去尽情发光吧~
 ## 🔨 使用
 
 ```ts
-import { useToggle } from 'Yanhuo-hooks';
+import { useToggle } from 'yanhuo-hooks';
 ```

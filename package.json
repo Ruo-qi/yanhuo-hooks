@@ -1,5 +1,5 @@
 {
-  "name": "yanhuo-plugin",
+  "name": "yanhuo-hooks",
   "description": "vue组件库,包含一些常用组件和hooks",
   "private": true,
   "scripts": {

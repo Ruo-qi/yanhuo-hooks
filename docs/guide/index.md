@@ -45,6 +45,6 @@
 
 ## 📧 联系
 
-- **GitHub**: <https://github.com/Ruo-qi/Yanhuo-plugin>
-- **Hooks** <https://ruo-qi.github.io/Yanhuo-plugin/>
+- **GitHub**: <https://github.com/Ruo-qi/yanhuo-hooks>
+- **Hooks** <https://ruo-qi.github.io/yanhuo-hooks/>
 </br>
