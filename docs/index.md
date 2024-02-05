@@ -21,12 +21,11 @@ footer: ✨接下来,就去尽情发光吧~
 - 完整的测试用例：配套完整的测试用例，帮助您提升项目健壮性
 
 ## 📦 安装
-待添加...
-<!-- ```bash
-# $ pnpm install --save encode-hooks
-# or
-# $ yarn add encode-hooks
-``` -->
+```bash
+$ pnpm install --save yanhuo-hooks
+or
+$ yarn add yanhuo-hooks
+```
 ## 🔨 使用
 
 ```ts

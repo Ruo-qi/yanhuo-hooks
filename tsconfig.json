@@ -11,7 +11,7 @@
     "paths": {
       "@/*": ["src/*"],
       "yanHuoHooks": ["./packages/hooks/src/index.ts"],
-      "yan-huo-hooks": ["./packages/hooks/src/index.ts"],
+      "yanhuo-hooks": ["./packages/hooks/src/index.ts"],
       "yanHuoHooks/lib/*": ["./packages/hooks/src/*"],
       "yan-huo-hooks/lib/*": ["./packages/hooks/src/*"]
     },

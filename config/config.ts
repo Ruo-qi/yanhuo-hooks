@@ -26,7 +26,7 @@ export default {
   manifest: {},
   hash: true,
   alias: {
-    yanHuoHooks: process.cwd() + '/packages/hooks/src/index.ts',
+    ['yanhuo-hooks']: process.cwd() + '/packages/hooks/src/index.ts',
   },
   resolve: {
     includes: ['docs', 'packages/hooks/src'],
