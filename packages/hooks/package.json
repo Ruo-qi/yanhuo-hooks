@@ -1,5 +1,5 @@
 {
-  "name": "hooks",
+  "name": "yanhuo-hooks",
   "version": "1.0.0",
   "description": "",
   "keywords": [
@@ -10,7 +10,7 @@
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
-  "unpkg": "dist/yanHuoHooks.js",
+  "unpkg": "dist/yanhuoHooks.js",
   "sideEffects": false,
   "authors": "Yanhuo",
   "publishConfig": {
