@@ -19,7 +19,6 @@
   "repository": "https://github.com/Ruo-qi/yanhuo-hooks",
   "homepage": "https://github.com/Ruo-qi/yanhuo-hooks",
   "scripts": {
-    "init": "pnpm install",
     "build": "gulp && webpack-cli"
   },
   "files": [
