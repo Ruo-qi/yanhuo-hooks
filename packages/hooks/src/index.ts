@@ -1,3 +1,7 @@
+// 状态
 import useToggle from './useToggle/index';
 
-export { useToggle };
+//进阶
+import useMemoizedFn from './useMemoizedFn/index';
+
+export { useToggle, useMemoizedFn };

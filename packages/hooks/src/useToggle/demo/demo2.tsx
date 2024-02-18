@@ -4,6 +4,7 @@
  */
 
 import React from 'react';
+import { Button } from 'antd';
 import { useToggle } from 'yanhuo-hooks';
 
 export default () => {
@@ -13,21 +14,21 @@ export default () => {
     <div>
       <p>Effects：{state}</p>
       <p>
-        <button type="button" onClick={toggle}>
+        <Button type="primary" onClick={toggle}>
           Toggle
-        </button>
-        <button type="button" onClick={() => set('Hello')} style={{ margin: '0 8px' }}>
+        </Button>
+        <Button type="primary" onClick={() => set('Hello')} style={{ margin: '0 8px' }}>
           Set Hello
-        </button>
-        <button type="button" onClick={() => set('World')}>
+        </Button>
+        <Button type="primary" onClick={() => set('World')}>
           Set World
-        </button>
-        <button type="button" onClick={setLeft} style={{ margin: '0 8px' }}>
+        </Button>
+        <Button type="primary" onClick={setLeft} style={{ margin: '0 8px' }}>
           Set Left
-        </button>
-        <button type="button" onClick={setRight}>
+        </Button>
+        <Button type="primary" onClick={setRight}>
           Set Right
-        </button>
+        </Button>
       </p>
     </div>
   );
