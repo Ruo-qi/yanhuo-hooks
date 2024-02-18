@@ -5,7 +5,8 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
-    "init": "pnpm -r --filter=./packages/* run init && pnpm install && pnpm run build",
+    "packageInit": "pnpm -r --filter=./packages/* run init",
+    "init": "pnpm install && pnpm run build",
     "start": "pnpm run dev",
     "clean-dist": "rimraf 'packages/hooks/{lib,es,node_modules,dist}'",
     "clean": "pnpm run clean-dist && rimraf node_modules",

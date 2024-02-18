@@ -19,6 +19,7 @@ jobs:
         run: |
           npm i -g pnpm
           pnpm install --no-frozen-lockfile
+          pnpm run packageInit
           pnpm run init
         env:
           NODE_OPTIONS: '--max_old_space_size=4096'
