@@ -1,3 +1,5 @@
+// 生命周期
+import useUnmount from './useUnmount/index';
 // 状态
 import useToggle from './useToggle/index';
 import useCookieState from './useCookieState/index';
@@ -6,4 +8,4 @@ import useCookieState from './useCookieState/index';
 import useMemoizedFn from './useMemoizedFn/index';
 import useLatest from './useLatest/index';
 
-export { useToggle, useCookieState, useMemoizedFn, useLatest };
+export { useToggle, useCookieState, useMemoizedFn, useLatest, useUnmount };
