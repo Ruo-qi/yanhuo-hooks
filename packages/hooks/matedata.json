@@ -1,8 +1,24 @@
 {
   "functions": [
     {
+      "name": "useCookieState",
+      "description": "可以接收函数"
+    },
+    {
+      "name": "useLatest",
+      "description": "```typescript"
+    },
+    {
+      "name": "useMemoizedFn",
+      "description": "```typescript"
+    },
+    {
       "name": "useToggle",
-      "description": "用于在两个状态值间切换的 Hook。"
+      "description": "```typescript"
+    },
+    {
+      "name": "useUnmount",
+      "description": "```typescript"
     }
   ]
 }
