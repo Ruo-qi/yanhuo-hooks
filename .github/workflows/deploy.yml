@@ -20,6 +20,7 @@ jobs:
       - name: Install and Build
         run: |
           npm i -g pnpm
+          pnpm install --no-frozen-lockfile
           pnpm run init
           pnpm run build:doc
         env:
