@@ -8,10 +8,13 @@ import useDebounce from './useDebounce/index';
 
 // Effect
 import useDebounceFn from './useDebounceFn/index';
+import useUpdateEffect from './useUpdateEffect/index';
 
 //进阶
 import useMemoizedFn from './useMemoizedFn/index';
 import useLatest from './useLatest/index';
+
+import createUpdateEffect from './createUpdateEffect/index';
 
 export {
   useToggle,
@@ -22,4 +25,6 @@ export {
   useBoolen,
   useDebounceFn,
   useDebounce,
+  createUpdateEffect,
+  useUpdateEffect,
 };

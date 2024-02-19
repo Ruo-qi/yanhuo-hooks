@@ -9,7 +9,7 @@ export const menus = [
   },
   {
     title: 'Effect',
-    children: ['useDebounceFn'],
+    children: ['useDebounceFn', 'useUpdateEffect'],
   },
   {
     title: '进阶',
