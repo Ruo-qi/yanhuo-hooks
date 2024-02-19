@@ -4,6 +4,7 @@ import useUnmount from './useUnmount/index';
 import useToggle from './useToggle/index';
 import useCookieState from './useCookieState/index';
 import useBoolen from './useBoolen/index';
+import useDebounce from './useDebounce/index';
 
 // Effect
 import useDebounceFn from './useDebounceFn/index';
@@ -20,4 +21,5 @@ export {
   useUnmount,
   useBoolen,
   useDebounceFn,
+  useDebounce,
 };
