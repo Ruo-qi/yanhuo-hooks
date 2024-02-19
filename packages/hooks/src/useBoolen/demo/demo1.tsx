@@ -1,3 +1,8 @@
+/**
+ * title: 基础用法
+ * desc: 切换 boolean，可以接收默认值。
+ */
+
 import React from 'react';
 import { Button } from 'antd';
 import { useBoolen } from 'yanhuo-hooks';

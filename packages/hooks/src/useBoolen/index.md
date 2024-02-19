@@ -3,7 +3,7 @@ nav:
   path: /hooks
 ---
 
-# useBoolean-Boolean状态管理
+# useBoolean Boolean状态管理
 
 优雅的管理 boolean 状态的 Hook。
 

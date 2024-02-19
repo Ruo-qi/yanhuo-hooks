@@ -8,6 +8,10 @@ export const menus = [
     children: ['useToggle', 'useCookieState', 'useBoolen'],
   },
   {
+    title: 'Effect',
+    children: ['useDebounceFn'],
+  },
+  {
     title: '进阶',
     children: ['useMemoizedFn', 'useLatest'],
   },

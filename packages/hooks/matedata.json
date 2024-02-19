@@ -1,8 +1,15 @@
 {
   "functions": [
     {
+      "name": "useBoolen",
+      "description": "```typescript"
+    },
+    {
       "name": "useCookieState",
       "description": "可以接收函数"
+    },
+    {
+      "name": "useDebounceFn"
     },
     {
       "name": "useLatest",
