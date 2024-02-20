@@ -15,11 +15,24 @@ export const menus = [
       'useMap',
       'useSet',
       'useThrottle',
+      'useRafState',
     ],
   },
   {
     title: 'Effect',
     children: ['useDebounceFn', 'useUpdateEffect', 'useThrottleFn'],
+  },
+  {
+    title: 'DOM',
+    children: [
+      'useTitle',
+      'useResponsive',
+      'useKeyPress',
+      'useEventListener',
+      'useMouse',
+      'useFullscreen',
+      'useDocumentVisibility',
+    ],
   },
   {
     title: '进阶',
