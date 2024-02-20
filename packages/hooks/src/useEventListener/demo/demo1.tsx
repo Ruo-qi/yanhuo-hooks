@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useRef } from 'react';
+import { Button } from 'antd';
 import { useEventListener } from 'yanhuo-hooks';
 
 export default () => {
@@ -19,8 +20,8 @@ export default () => {
   );
 
   return (
-    <button ref={ref} type="button">
+    <Button ref={ref} type="primary">
       You click {value} times
-    </button>
+    </Button>
   );
 };

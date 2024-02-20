@@ -17,7 +17,7 @@ export default () => {
         style={{
           width: '200px',
           height: '200px',
-          backgroundColor: 'pink',
+          backgroundColor: '#7dc5eb',
           color: 'white',
           lineHeight: '200px',
           textAlign: 'center',

@@ -3,7 +3,7 @@
  * desc: 在组件卸载时，执行函数。
  */
 
-import { message } from 'antd';
+import { message, Button } from 'antd';
 import React, { useState } from 'react';
 import { useUnmount } from 'yanhuo-hooks';
 
@@ -20,9 +20,9 @@ export default () => {
 
   return (
     <>
-      <button type="button" onClick={() => setState((state) => !state)}>
+      <Button type="default" danger={state} onClick={() => setState((state) => !state)}>
         {state ? 'unmount' : 'mount'}
-      </button>
+      </Button>
       {state && <MyComponent />}
     </>
   );

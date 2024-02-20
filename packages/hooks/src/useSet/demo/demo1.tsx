@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'antd';
 import { useSet } from 'yanhuo-hooks';
 
 export default () => {
@@ -6,20 +7,20 @@ export default () => {
 
   return (
     <div>
-      <button type="button" onClick={() => add(String(Date.now()))}>
+      <Button type="primary" onClick={() => add(String(Date.now()))}>
         Add Timestamp
-      </button>
-      <button
-        type="button"
+      </Button>
+      <Button
         onClick={() => remove('Hello')}
         disabled={!set.has('Hello')}
         style={{ margin: '0 8px' }}
+        danger
       >
         Remove Hello
-      </button>
-      <button type="button" onClick={() => reset()}>
+      </Button>
+      <Button type="default" onClick={() => reset()}>
         Reset
-      </button>
+      </Button>
       <div style={{ marginTop: 16 }}>
         <pre>{JSON.stringify(Array.from(set), null, 2)}</pre>
       </div>

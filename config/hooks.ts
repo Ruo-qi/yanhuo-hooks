@@ -1,5 +1,9 @@
 export const menus = [
   {
+    title: '开发指南',
+    children: ['README'],
+  },
+  {
     title: '生命周期',
     children: ['useUnmount'],
   },

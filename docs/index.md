@@ -2,7 +2,7 @@
 title: Home
 hero:
   image: /yanhuo-hooks/short-logo.png
-  desc: hooks 组件库 - from  <B style="color:pink">烟火</B> 🐳
+  desc:  <font size=6> React 业务 Hooks 库</font>
   actionText: 开始
   actions:
     - text: 指南
@@ -11,7 +11,7 @@ hero:
     #   link: /hooks
     - text: Hooks 列表
       link: /hooks
-footer: ✨接下来,就去尽情发光吧~
+footer: <font color=#f8c552> ✨ 接下来,就去尽情发光吧~ </font>
 ---
 
 ## ✨ 特性
