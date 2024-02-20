@@ -5,7 +5,14 @@ export const menus = [
   },
   {
     title: '状态',
-    children: ['useToggle', 'useCookieState', 'useBoolen', 'useDebounce', 'useLocalStorageState'],
+    children: [
+      'useToggle',
+      'useCookieState',
+      'useBoolen',
+      'useDebounce',
+      'useLocalStorageState',
+      'useMap',
+    ],
   },
   {
     title: 'Effect',

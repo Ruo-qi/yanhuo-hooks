@@ -7,6 +7,7 @@ import useCookieState from './useCookieState/index';
 import useBoolen from './useBoolen/index';
 import useDebounce from './useDebounce/index';
 import useLocalStorageState from './useLocalStorageState/index';
+import useMap from './useMap/index';
 
 // Effect
 import useDebounceFn from './useDebounceFn/index';
@@ -32,4 +33,5 @@ export {
   useUpdateEffect,
   createUseStorageState,
   useLocalStorageState,
+  useMap,
 };
