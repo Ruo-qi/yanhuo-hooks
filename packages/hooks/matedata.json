@@ -2,30 +2,95 @@
   "functions": [
     {
       "name": "useBoolen",
-      "description": "```typescript"
+      "description": "boolean状态管理"
     },
     {
       "name": "useCookieState",
-      "description": "可以接收函数"
+      "description": "cookie存储"
     },
     {
-      "name": "useDebounceFn"
+      "name": "useDebounce",
+      "description": "防抖"
+    },
+    {
+      "name": "useDebounceFn",
+      "description": "防抖函数"
+    },
+    {
+      "name": "useDocumentVisibility",
+      "description": "监听页面"
+    },
+    {
+      "name": "useEventListener",
+      "description": "事件监听"
+    },
+    {
+      "name": "useFullscreen",
+      "description": "全屏"
+    },
+    {
+      "name": "useKeyPress",
+      "description": "键盘事件"
     },
     {
       "name": "useLatest",
-      "description": "```typescript"
+      "description": "获取最新Hook"
+    },
+    {
+      "name": "useLocalStorageState",
+      "description": "将状态存储在 localStorage 中的 Hook 。"
+    },
+    {
+      "name": "useMap",
+      "description": "map"
     },
     {
       "name": "useMemoizedFn",
-      "description": "```typescript"
+      "description": "持久化 Fn"
+    },
+    {
+      "name": "useMouse",
+      "description": "监听鼠标位置"
+    },
+    {
+      "name": "useRafState",
+      "description": "设置state"
+    },
+    {
+      "name": "useResponsive",
+      "description": "获取响应式"
+    },
+    {
+      "name": "useSessionStorageState",
+      "description": "将状态存储在 sessionStorage 中的 Hook。"
+    },
+    {
+      "name": "useSet",
+      "description": "set"
+    },
+    {
+      "name": "useThrottle",
+      "description": "节流"
+    },
+    {
+      "name": "useThrottleFn",
+      "description": "节流函数"
+    },
+    {
+      "name": "useTitle",
+      "description": "设置页面标题"
     },
     {
       "name": "useToggle",
-      "description": "```typescript"
+      "description": "状态间切换"
     },
     {
       "name": "useUnmount",
-      "description": "```typescript"
+      "description": "组件卸载"
+    },
+    {
+      "name": "useUpdateEffect",
+      "description": "依赖更新"
     }
   ]
 }
