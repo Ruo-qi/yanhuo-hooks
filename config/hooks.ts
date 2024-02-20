@@ -11,12 +11,15 @@ export const menus = [
       'useBoolen',
       'useDebounce',
       'useLocalStorageState',
+      'useSessionStorageState',
       'useMap',
+      'useSet',
+      'useThrottle',
     ],
   },
   {
     title: 'Effect',
-    children: ['useDebounceFn', 'useUpdateEffect'],
+    children: ['useDebounceFn', 'useUpdateEffect', 'useThrottleFn'],
   },
   {
     title: '进阶',
